@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ishwari Portfolio</title>
+
+<link rel="stylesheet" href="isha.css">
+
+<!-- Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+.circle {
+  height: 7px; /* Set equal height and width */
+  width: 7px;
+  background-color: white; /* Set the background color to white */
+  border-radius: 50%; /* This makes the square into a circle */
+  display: inline-block; /* Allows the element to sit inline with text/other elements */
+  border: 1px solid black; /* Optional: adds a black border so the white circle is visible on a white background */
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+<nav>
+<h1 class="logo">Ishwari</h1>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="Resume.pdf" target="_blank">Resume</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+
+<!-- HOME -->
+<section id="home" class="home">
+
+<div class="home-text">
+
+<h1>Hi, I am</h1>
+<h1><span>Ishwari Sunagar</span></h1>
+
+<h3>Aspiring Software Engineer | Java </h3>
+
+<p>
+Computer Science graduate passionate about building real-world applications and continuously improving as a software developer.
+</p>
+
+<div class="social">
+
+<a href="https://www.linkedin.com/in/ishwari-sunagar-000855289" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/your-username" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="mailto:ishwarisunagar30@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="home-img">
+<img src="me.png" alt="profile">
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about">
+
+<h2>About Me</h2>
+
+<p class="about_me">
+I recently graduated with a degree in Computer Science Engineering
+and I am excited to begin my career in the technology field.
+During my academic journey, I developed a strong interest in
+programming and software development.  <br>
+<br>
+
+I have spent time learning different programming concepts and
+working on projects that helped me improve my technical skills.
+These experiences allowed me to understand how software solutions
+are designed and implemented. <br>
+<br>
+I enjoy learning new technologies and continuously improving
+my problem-solving abilities. I believe that consistent practice
+and curiosity are important for growth in the field of software
+development. <br>
+ <br>
+I am now looking for opportunities where I can apply my knowledge,
+gain real-world experience, and grow as a software developer while
+contributing to meaningful and impactful projects.
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-box">
+<h3>Programming</h3>
+<p>Java<br>JavaScript<br>Python<br>SQL</p>
+</div>
+
+<div class="skill-box">
+<h3>Web Development</h3>
+<p>HTML<br>CSS<br>JavaScript</p>
+</div>
+
+<div class="skill-box">
+<h3>Core Concepts</h3>
+<p>Data Structures<br>Algorithms<br>OOP</p>
+</div>
+
+<div class="skill-box">
+<h3>Tools</h3>
+<p>Git<br>GitHub<br>VS Code<br>Eclipse</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects-container">
+
+<div class="project-box">
+<h3>College Event Management System</h3>
+<p><div class="circle"></div> A full-stack web app that centralizes all college events so students never miss seminars, hackathons, fests, or sports meets.  <br>
+    <div class="circle"></div> In college, students miss many events because information is scattered across WhatsApp groups, notice boards, and posters. <br> 
+    <div class="circle"></div> This system solves that problem by providing a single platform where all events are listed with dates, venue, description, and direct registration links.
+ <br> <div class="circle"></div> Students can browse all upcoming events, filter by category, and click to view full event details.  <br>
+ <div class="circle"></div> Organizers can log in to a secure admin panel to add and delete events.  <br>
+ <div class="circle"></div> The system automatically hides past events and fetches all data from a real MySQL database through a REST API.</p>
+<p><b>Tech: <br></b> Frontend — HTML, CSS, JavaScript <br>
+Backend — Java, Spring Boot <br>
+Database — MySQL <br>
+ORM — Spring Data JPA <br>
+Security — Spring Security</p>
+<br>
+<a href="https://github.com/Ishwari232003/college-events" target="_blank"     class="btn">View Code</a>
+</div>
+
+<div class="project-box">
+<h3>Career Match System</h3>
+<p><div class="circle"></div> A full-stack web application that helps users choose the right career path based on their skills.
+<br><div class="circle"></div> Many students feel confused while selecting a career because they don’t know which roles match their abilities, and most platforms provide generic or unclear suggestions.
+
+<br><div class="circle"></div> This system solves that problem by allowing users to select their skills from 30+ options and instantly showing the most relevant career paths with accurate match percentage scores. 
+<br><div class="circle"></div> Each career recommendation includes useful details such as average salary and a step-by-step learning roadmap to guide users toward that role.
+
+<br><div class="circle"></div> The system uses a custom-built skill matching algorithm that calculates real percentage scores from the database, ensuring that only meaningful and relevant matches are displayed instead of random suggestions.
+<p><b>Tech:</b> <br>
+    Frontend — HTML, CSS, JavaScript <br>
+Backend — Java, Spring Boot <br>
+Database — MySQL <br>
+ORM — Spring Data JPA</p></p>
+  <br>
+
+<a href="https://github.com/Ishwari232003/career-discovery" target="_blank"      class="btn">View Code</a>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<p>
+Have an opportunity or project? Let’s connect!
+</p>
+
+<div class="contact-info">
+
+<p><i class="fa-solid fa-location-dot"></i> Bengaluru, India</p>
+
+<p><i class="fa-solid fa-envelope"></i> ishwarisunagar30@gmail.com</p>
+
+<p><i class="fa-solid fa-phone"></i> +91 88610 03234</p>
+
+</div>
+
+<div class="contact-icons">
+
+<a href="https://www.linkedin.com/in/ishwari-sunagar-000855289" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/your-username" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+</div>
+
+</section>
+
+</body>
+</html>
