@@ -1,0 +1,206 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#0b0f2f;
+color:white;
+scroll-behavior:smooth;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #5148d8;
+}
+
+/* NAVBAR */
+header{
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#0b0f2f;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:16px;
+}
+
+
+nav a:hover{
+color:#6c63ff;
+}
+
+.logo{
+font: size 32px;
+}
+
+/* HOME */
+.home{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:100px 10%;
+gap:50px;
+}
+
+.home-text h1{
+font-size:40px;
+}
+
+.home-text span{
+color:#35a3ed;
+}
+
+.home-text p{
+margin-top:20px;
+line-height:1.6;
+}
+
+.home-img img {
+  width: 280px;
+  border-radius: 50%;
+  border: 3px solid #6c63ff;
+  box-shadow: 0 0 20px rgba(108, 99, 255, 0.5);
+}
+
+.social{
+margin-top:20px;
+}
+
+.social a{
+margin-right:15px;
+font-size:22px;
+color:white;
+}
+
+.social a:hover{
+color:#6c63ff;
+}
+
+/* SECTION */
+section{
+padding:100px 10%;
+}
+
+h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+/* ABOUT */
+.about_me{
+font-size:18px;
+max-width:800px;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+/* SKILLS */
+.skills-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.skill-box{
+background:#12163f;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.skill-box:hover{
+transform:translateY(-5px);
+}
+
+/* PROJECTS */
+.projects-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.project-box {
+  background: #12163f;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-box:hover {
+  transform: translateY(-8px);
+}
+
+.project-box a{
+color:#35a3ed;
+text-decoration:none;
+}
+
+/* CONTACT */
+.contact-info p{
+margin:10px 0;
+}
+
+.contact-icons{
+margin-top:20px;
+}
+
+.contact-icons a{
+margin-right:15px;
+color:white;
+font-size:20px;
+}
+
+.contact-icons a:hover{
+color:#6c63ff;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+.home{
+flex-direction:column;
+text-align:center;
+}
+
+.home-img img{
+width:200px;
+}
+}
+.project-box:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
